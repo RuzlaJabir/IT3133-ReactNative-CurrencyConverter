@@ -101,6 +101,7 @@ const styles = StyleSheet.create({
       fontWeight: 'bold',
       textAlign: 'center',
       marginBottom: 20,
+      color: "purple"
     },
     label: {
       fontSize: 16,
@@ -108,7 +109,7 @@ const styles = StyleSheet.create({
     },
     input: {
       height: 40,
-      borderColor: "gray",
+      borderColor: "purple",
       borderWidth: 1,
       width: "100%",
       marginBottom: 20,
@@ -117,10 +118,10 @@ const styles = StyleSheet.create({
     dropdown: {
       marginBottom: 20,
       width: "100%",
-      borderColor: "#ccc",
+      borderColor: "purple",
     },
     dropdownContainer: {
-      borderColor: "#ccc",
+      borderColor: "purple",
       zIndex: 1000,
     },
     button: {
