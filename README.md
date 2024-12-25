@@ -9,7 +9,3 @@ A simple currency converter app built with React Native and React Native Paper.
 ## Technologies Used
 - React Native
 - React Native Paper
-
-
-
-- 
