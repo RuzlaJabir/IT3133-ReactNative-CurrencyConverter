@@ -88,3 +88,54 @@ export default function HomeScreen() {
   );
 }
 
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      justifyContent: 'center',
+      padding: 16,
+      backgroundColor: '#ffffff',
+      alignItems: 'center'
+    },
+    header: {
+      fontSize: 24,
+      fontWeight: 'bold',
+      textAlign: 'center',
+      marginBottom: 20,
+    },
+    label: {
+      fontSize: 16,
+      marginVertical: 10,
+    },
+    input: {
+      height: 40,
+      borderColor: "gray",
+      borderWidth: 1,
+      width: "100%",
+      marginBottom: 20,
+      paddingHorizontal: 10,
+    },
+    dropdown: {
+      marginBottom: 20,
+      width: "100%",
+      borderColor: "#ccc",
+    },
+    dropdownContainer: {
+      borderColor: "#ccc",
+      zIndex: 1000,
+    },
+    button: {
+      marginVertical: 12,
+    },
+    result: {
+      fontSize: 18,
+      marginTop: 20,
+      textAlign: 'center',
+      color: 'green',
+    },
+    error: {
+      fontSize: 16,
+      color: "red",
+      marginTop: 20,
+    },
+  });
+  
